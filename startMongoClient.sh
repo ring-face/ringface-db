@@ -1,0 +1,1 @@
+mongo --username 'ringface-bff' --password 'lskdnf23!' --authenticationDatabase ringfacedb

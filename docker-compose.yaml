@@ -6,8 +6,9 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=root
       - MONGO_INITDB_ROOT_PASSWORD=lsidkn13475!
-      - MONGO_INITDB_DATABASE=ringface
+      - MONGO_INITDB_DATABASE=ringfacedb
     volumes:
       - ./mongodb/db:/data/db
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
     ports:
       - 27017-27019:27017-27019
