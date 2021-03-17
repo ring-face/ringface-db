@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo
+    container_name: ringface-mongodb
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=lsidkn13475!
+      - MONGO_INITDB_DATABASE=ringface
+    volumes:
+      - ./mongodb/db:/data/db
+    ports:
+      - 27017-27019:27017-27019
