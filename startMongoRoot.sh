@@ -1,0 +1,1 @@
+mongo --username 'root' --password 'lsidkn13475!'
