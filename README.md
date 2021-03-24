@@ -5,7 +5,7 @@ This is the data container of the application. It features a mongo database, and
 The mongodb is used by the bff container, and contains the data displayed by the GUI.
 It will be read and written by the bff microservice.
 
-## To start mongodb
+# How to run
 `docker-compose up`
 
 # The file store
